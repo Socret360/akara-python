@@ -12,6 +12,3 @@ class Node:
             return self.children[[w for (w, node) in self.children].index(weight)][1]
         except:
             return None
-
-    def children_in_tolerance(self, lower: int, upper: int) -> List:
-        return [child[1] for child in self.children if child[0] >= lower and child[0] <= upper]

@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name='akara-python',
     packages=['akara', 'akara/assets'],
-    version='0.0.1',
+    version='1.0.0',
     license='GNU General Public License v3.0 or later (GPL-3.0-or-later)',
     description='A library to perform spelling suggestions for the Khmer language.',
     author='Socret Lee',
